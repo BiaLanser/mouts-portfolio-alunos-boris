@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Formulario de inscrição</h2>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+        <label for="fone">Telefone:</label>
+        <input type="tel" name="fone" required><br><br>
+
+        <label for="semestre">Selecione o semestre que deseja ingressar:</label>
+        <select id="semestre" name="semestre">
+          <option>1º Semestre</option>
+          <option>2º Semestre</option>
+        </select><br><br>
+
+        <label for="interesses">Áreas de Interesse:</label>
+        <input type="checkbox" name="esportes" value="esportes">
+        <label for="esportes">Esportes</label>
+        <input type="checkbox" name="musica" value="musica">
+        <label for="musica">Música</label>
+        <input type="checkbox" name="arte" value="arte">
+        <label for="arte">Arte</label><br><br>
+        <label for="preferencia">Como prefere ser contatado?</label>
+
+        <label><input type="radio" name="contato" value="email" required>Email</label>
+        <label><input type="radio" name="contato" value="telefone" required>Telefone</label><br><br>
+
+        <label for="mensagem">Mensagem de sugestão:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+        
+        <input type="reset" value="Resetar Formulario"><br><br>
+        <input type="submit" value="Subscribe">
+      </form>
+</body>
+</html>

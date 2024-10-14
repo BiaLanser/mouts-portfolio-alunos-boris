@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 style="color: #16c1c8;text-align: center;">Cadastro Simples</h1>
+    <fieldset class="fieldset">
+
+    <form action="CadastroSimples.html" autocomplete="off">
+        <p><label for="id_Nome">Nome:<input type="text" name="Nome" id="id_Nome" autofocus required></label></p>
+        <p><label for="id_Sobrenome">Sobrenome:<input type="text" name="Sobrenome" id="id_Sobrenome" autofocus required></label></p>
+        <p><label for="id_Email">Email: <input type="email" name="Email" id="id_Email" autofocus required></label></p>
+        <p><label for="id_Descricao">Descrição:</label><textarea style="width: 671px; height: 25px;" name="Descricao" id="id_descricao" autofocus>O que você espera:</textarea></p>
+    </fieldset>
+    <fieldset class="fieldset1">
+        <div>
+            <label> Qual Periodo:</label>
+            <label>
+             <input type="radio" name="Periodo" value="Matutino" required>Matutino
+            </label>
+
+            <label>
+                <input type="radio" name="Periodo" value="Vespertino" required>Vespertino
+            </label>
+
+            <label>
+                <input type="radio" name="Periodo" value="Noturno" required>Noturno
+            </label>
+        </div>
+    </fieldset>
+        
+        <fieldset class="fieldset1">
+            <div>
+                <label>Que ano vai Ingressar:</label>
+                <select id="periodo" required>
+                    <option selected disabled value="">Escolha uma opção</option>
+                    <option >Agora</option>
+                    <option >Este Ano</option>
+                    <option >Ano que vem</option>
+                    <option >Ainda sem data</option>
+                </select>
+            </div>
+        </fieldset>
+        
+
+        <fieldset class="fieldset1">
+            <div>
+                <label>Qual Area Deseja seguir: (Escolha ao menos 1!)</label>
+                <input type="checkbox" name="Humanas" id="id_Humanas">Humanas
+                <input type="checkbox" name="Exatas" id="id_Exatas">Exatas
+                <input type="checkbox" name="Biologicas" id="id_Biologicas">Biologicas
+                <input type="checkbox" name="id_NaoSei" id="id_NaoSei">Não Sei
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Enviar Formulario">
+        <input type="submit" value="Reset">
+        
+    </form>
+</body>
+</html>

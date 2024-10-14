@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Cadastro Pessoa</h1>
+
+    <form autocomplete="off">
+        <p><label for="idNome">Informe o seu nome</label>
+            <input required type="text" name="nome" placeholder="Nome Completo" id="idNome">
+        </p>
+
+        <p><label for="idDate">Informe a sua data de nascimento</label>
+            <input type="date" name="date" placeholder="Data Nascimento" id="idDate">
+        </p>
+
+        <p><label for="idEmail">Informe o seu email</label>
+            <input required type="email" name="email" placeholder="Email" id="idEmail">
+        </p>
+
+        <p><label for="idPassword">Informe uma senha para cadastro</label>
+            <input required type="password" name="senha" placeholder="Senha" id="idPassword">
+        </p>
+
+        <label for="">Selecione a sua área do conhecimento</label>
+        <input type="radio" name="area" value="Ciências Humanas">Ciências Humanas
+        <input type="radio" name="area" value="Ciências Biológicas">Ciências Biológicas
+        <input type="radio" name="area" value="Ciências Exatas">Ciências Exatas
+
+
+
+        <p><label for="idCidade">Em qual cidade você mora?</label>
+            <select name="" id="idCidade">
+                <option value="Blumenau">Blumenau</option>
+                <option value="Blumenau">Brusque</option>
+                <option value="Blumenau">Itajai</option>
+            </select>
+        </p>
+
+        <p><label for="idEndereco">Informe o seu endereço</label>
+            <textarea name="endereco" id="idEndereco" rows="2"></textarea>
+        </p>
+
+        <fieldset>
+            <label for="">O que você acha imprescindível em uma faculdade?</label>
+            <p><input type="checkbox" name="caracteristica" id="idCaracteristica" value="Bons professores">Bons professores</p>
+            <p><input type="checkbox" name="caracteristica" id="idCaracteristica" value="Estrutura arborizada e confortavel">Estrutura arborizada e confortavel</p>
+            <p><input type="checkbox" name="caracteristica" id="idCaracteristica" value="Corpo estudantil unido">Corpo estudantil unido</p>
+            <p><input type="checkbox" name="caracteristica" id="idCaracteristica" value="Oportunidades no mercado de trabalho">Oportunidades no mercado de trabalho</p>
+            <p><input type="checkbox" name="caracteristica" id="idCaracteristica" value="Intercâmbios">Intercâmbios</p>
+        </fieldset>
+
+        <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Reset"></p>
+
+    </form>
+
+</body>
+
+</html>

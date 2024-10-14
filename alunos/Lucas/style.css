@@ -1,0 +1,40 @@
+.row{
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+body{
+    background-color: rgb(126, 167, 225);
+    padding-top: 20px;
+}
+
+
+
+
+.Lucas {
+    background-color: #f0f0f5; 
+    padding: 20px;
+    border-radius: 5px; 
+    max-width: 468px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+/* Estilizando o título */
+.Lucas h1 {
+    color: black; 
+    font-size: 2em; 
+    margin-bottom: 10px;
+}
+
+/* Estilizando os parágrafos */
+.Lucas p {
+    color: black;
+    line-height: 1.6em; 
+    margin-bottom: 15px; 
+}
+
+

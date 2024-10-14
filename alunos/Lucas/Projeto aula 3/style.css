@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9d5a1;
+
+
+}
+.form{
+    text-align: left;
+    font-weight: bold;
+}
+.facul{
+    padding: 10px;
+    
+}
+select{
+    width: 200px;
+}
+button{
+    padding: 5px;
+    font-size: 15px;
+}
+textarea{
+    padding: 10px;
+}
+
+form{
+    text-align: left;
+}
+.facul p{
+    font-weight: bold;
+}

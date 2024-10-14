@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <div class="loginform"> <form action="/enviar" method="post">
+        <h1>Login</h1>
+         <p>
+            <div class="icones">
+                <i class="fas fa-envelope"></i>
+            <label for="id-email"></label>
+                <input class="input-text" required type="email" name="Email" id="id-email" placeholder="Email">
+            </div>
+        </p>
+         <p>
+            <div class="icones">
+                       
+            <label for="id-password"></label>
+            <i class="fas fa-lock"></i></label>
+                <input class="input-text" required type="password" name="password" id="id-password" placeholder="Senha">
+            </div>
+        </p>
+        <p class="Lembrar-me">
+            <input type="checkbox" id="Lembrar-me" name="Lembrar-me">
+            <label for="Lembrar-me">Lembrar-me</label>
+          </p>
+        <p>
+            <input class="loginbtn" type="submit" value="Login"></p> 
+        <div class="Esqueci">
+            <a href="#">Esqueci minha senha</a>
+        </div>
+ 
+     
+ 
+     
+</body>
+</html>

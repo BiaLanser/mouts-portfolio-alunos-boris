@@ -1,0 +1,90 @@
+body {
+    background-color: #c3e1f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Lora", serif;;
+}
+.mainDiv {
+    text-align: center;
+    background-color: #74b6e5;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.divInput{
+    padding: 10px;
+}
+
+
+label{
+    color: rgb(13, 49, 128);
+}
+
+form {
+    display: table-cell;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.clInput {
+    border-radius: 5px;
+    background-color: #bbdaf0;
+    border-color: #4ca3e1;
+    transition: border-color background-color 0s;
+}
+
+.clemail:focus{
+    border-color: rgb(13, 49, 128);
+    border-style: solid;
+    background-color: #a3d8fd;
+
+}
+
+.senha:focus{
+    border-color: rgb(13, 49, 128);
+    border-style: solid;
+    background-color: #a3d8fd;
+
+}
+
+.btLogin{
+    border-radius: 5px;
+    background-color: #bbdaf0;
+    border-color: #4ca3e1;
+    color: #4ca3e1;
+    padding-left: 67px;
+    padding-right: 67px;
+    transition: background-color 0s;
+}
+
+
+.btLogin:hover {
+    background-color: rgb(223, 61, 61, 0.0);
+    border-color: rgb(13, 49, 128);
+    color: rgb(13, 49, 128);
+
+    
+    border: 1px solid;
+   
+    box-shadow: 2px 4px #4ca3e1;
+}
+
+a{
+    color: rgb(13, 49, 128);
+}
+
+.imgEmail{
+    height: 20px;
+    padding-right: 10px;
+}
+
+.display{
+    display: flex;
+    padding: 8px;
+}
+
+.divLembrar{
+    padding: 5px;
+}

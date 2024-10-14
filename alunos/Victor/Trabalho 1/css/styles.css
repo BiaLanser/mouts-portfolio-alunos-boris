@@ -1,0 +1,107 @@
+body{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #d8f1d2;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+#mainbox{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center; 
+}
+
+.input-container {
+    position: relative;
+    width: 245px;
+    margin-bottom: 15px;
+    background-color: #dbe9cd;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Aumenta o padding à esquerda para o ícone */
+}
+
+.input-container .fa-solid {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+#btnLogin{
+    width: 100%;
+    padding: 10px;
+    background-color: #55af6e; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#btnLogin:hover{
+    background-color: #4a7d65;
+    transition: 0.2s;
+}
+
+#btnLogin:active{
+    transform: translateY(2px); /* Efeito de "afundar" */
+}
+
+#aSenha{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #729EA1; /* Cor do link de "Esqueci minha senha" */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#aSenha:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+      width: 90%; /* Ocupa quase toda a largura da tela em tablets ou telas menores */
+    }
+
+    body {
+      padding: 10px; /* Adiciona espaçamento para evitar bordas "apertadas" */
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        width: 100%; /* Ocupa 100% da largura da tela em dispositivos móveis */
+        padding: 15px; /* Reduz o padding para caber melhor em telas muito pequenas */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Reduz o tamanho da fonte do título em telas menores */
+    }
+
+    .login-button {
+        padding: 12px; /* Aumenta um pouco o padding para facilitar o clique em dispositivos móveis */
+    }
+}

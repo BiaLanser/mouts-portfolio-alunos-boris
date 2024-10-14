@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+   <div class="form"> <form action="/enviar" method="post">
+        <p><label for="id-nome">Nome:</label><input required type="text" name="nome" id="id-nome"></p>
+        <p><label for="id-sobrenome">Sobrenome:</label><input required type="text" name="nome" id="id-sobrenome"></p>
+        <p><label for="id-email">Email:</label><input required type="text" name="nome" id="id-email"></p>
+
+    
+
+    </select>
+</div>
+<div class="facul">
+<p>Informe seu sexo</p>
+    <select id="Sexo">
+        <option selected disabled value="">Selecione</option>
+        <option>Masculino</option>
+        <option>Feminino</option>
+        <option>Prefiro não declarar</option>
+    </select>
+
+
+    <p></p>
+    <p>Periodo</p>
+    <label><input type="radio" name="periodo" value="Matutino">Matutino</label>
+    <label><input type="radio" name="periodo" value="Vespertino">Vespertino</label>
+    <label><input type="radio" name="periodo" value="Noturno">Noturno</label>
+
+    <p>Curso de preferência</p>
+    <select id="Curso">
+        <option selected disabled value="">Selecione</option>
+        <option>Direito</option>
+        <option>Engenharia Mecânica</option>
+        <option>Engenharia Civil</option>
+        <option>Moda</option>
+    </select>
+    <p></p>
+    <p>Selecione sua preferências</p>
+    <input type="checkbox" name="aula" id="aula">Ensino a distância <br>
+    <input type="checkbox" name="aula" id="aula">Ensino presencial <br>
+    <input type="checkbox" name="aula" id="aula">Aulas práticas <br>
+    <input type="checkbox" name="aula" id="aula">Aulas teóricas <br>
+    <p></p>
+    <textarea name="Texto" id="Texto">O que você espera do curso</textarea>
+</div>
+<p><button type="submit">Enviar</button> <button type="reset">Limpar</button></p>
+
+
+       
+    </form>
+    
+</body>
+</html>

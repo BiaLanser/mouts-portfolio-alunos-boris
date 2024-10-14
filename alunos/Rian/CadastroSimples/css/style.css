@@ -1,0 +1,16 @@
+body{
+    background-color: #aee1d3;
+    text-align: center;
+}
+
+.fieldset{
+    background-color: #e1ecd6;
+}
+
+.fieldset1{
+    margin: 10px;
+    padding-top: 50px;
+    background-color: #e1ecd6;
+    height: 60px;
+    text-align: center;
+}

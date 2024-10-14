@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="get">
+        <p><label for="id-nome">Nome:</label> <input required placeholder="Nome..." type="text" name="nome" id="id-nome"></p>
+        <p><label for="sobrenome">Sobrenome:</label> <input required placeholder="Sobrenome..." type="text" name="sobrenome" id="sobrenome"></p>
+        <p><label for="id-nasc">Data de nascimento:</label> <input required type="date" name="nasc" id="id-nasc"></p>
+        <p><label for="id-email">Email:</label> <input required placeholder="Email..." type="email" name="email" id="id-email"></p>
+        <p><label for="id-senha">Defina uma senha:</label> <input required type="password" name="senha" id="id-senha"></p>
+        <p>Sexo: 
+            <label for="id-masc"> <input type="radio" name="sexo" id="id-masc"> Masculino</label> 
+            <label for="id-fem"> <input type="radio" name="sexo" id="id-fem"> Feminino</label> 
+        </p>
+        <p><label for="id-form">Quais formações você já fez?</label> </p>
+        <p><textarea name="form" id="id-form"></textarea></p>
+        <p>
+            <label for="id-curso">Qual formação você deseja fazer?</label> 
+            <select required name="" id="id-curso">
+                <option value="" selected disabled>Escolha uma opção:</option>
+                <option value="teste">Análise e desenvolvimento de sistemas</option>
+                <option value="">Moda</option>
+                <option value="">Engenharia química</option>
+                <option value="">Engenharia civil</option>
+                <option value="">Engenharia mecatrônica</option>    
+            </select>
+        </p>
+        <p>Período:</p>
+        <p>
+            <label for="id-vesp">
+                <input type="checkbox" name="periodo" id="id-vesp"> Vespertino
+            </label>
+            <label for="id-not">
+                <input type="checkbox" name="periodo" id="id-not"> Noturno
+            </label>
+        </p>
+        <p><input type="submit" value="Enivar"></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="mainDiv"> <!--Formulario Login-->
+        <form action="" autocomplete="off">
+
+            <div class="divInput">
+                <label for="idEmail">Insira seu email:</label>
+                <div class="display">
+                    <img class="imgEmail" src="./img/emailIcon.png" alt="" srcset="">
+                    <input class="clInput clemail" type="email" name="nmEmail" id="idEmail" placeholder="Email"
+                        required>
+                </div>
+
+            </div>
+
+            <div class="divInput">
+                <label for="idSenha">Insira sua senha:</label>
+                <div class="display">
+                    <img class="imgEmail" src="./img/padlockIcon.png" alt="" srcset="">
+                    <input class="clInput senha" type="password" name="nmSenha" id="idSenha" placeholder="Senha"
+                        required>
+                </div>
+            </div>
+
+            <div class="divLembrar">
+                <input type="checkbox" name="lembrar" id="">
+                <label for="lembrar">Lembrar-me</label>
+            </div>
+
+
+
+            <input class="btLogin" type="button" value="Login">
+
+            <p><a href="./esqueceuSenha.html">Esqueceu a senha?</a></p>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

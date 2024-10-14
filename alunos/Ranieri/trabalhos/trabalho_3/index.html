@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inscrição de curso</h1>
+    <div id="conteudo">
+        
+      <form action="/enviar" method="POST">
+        <p><label for="nome">Nome: <input type="text" id="nome" placeholder="Digite aqui seu nome"></label></p>
+        <p><label for="sobrenome">Sobrenome: <input type="text" id="sobrenome" placeholder="Digite aqui seu sobrenome"></label></p>
+        <p><label for="email">Email: <input type="email" id="email" placeholder="Digite aqui seu email"></label></p>
+        <p><label for="data_de_nascimento">Data de nascimento: <input type="date"></label></p>
+        <p><label for="senha">Senha: <input type="password" id="senha" placeholder="Digite aqui sua senha"></label></p>
+        <p><label for="curso">Curso: <select name="curso" id="curso" >
+            <option selected disabled value="">Escolha uma opção</option>
+            <option>Arquitetura</option>
+            <option>Direito</option>
+            <option>Enfermagem</option>
+            <option>Medicina</option>
+        </select></label></p>
+
+        <p>Escolha o turno em que deseja realizar o curso:</p>
+        <input type="radio" id="matutino">
+        <label for="matutino">Matutino</label>
+        <input type="radio" id="vespertino">
+        <label for="vespertino">Vespertino</label>
+        <input type="radio" id="noturno">
+        <label for="noturno">Noturno</label>
+
+        
+        <label for="sugestoes">Alguma sugestão de melhoria para nosso processo seletivo? <br><textarea name="" id="sugestoes"></textarea></label>
+
+        <p><label for="novidades">Deseja receber novidades sobre o nosso curso? <br> <input type="checkbox" name="" id="">Sim<input type="checkbox">Não</label></p>
+
+        <label for="enviar"><input type="submit" value="Enviar"></label>
+    </form>
+</div>
+</body>
+</html>

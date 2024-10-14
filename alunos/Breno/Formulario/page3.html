@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesformulario.css">
+    <style></style>
+    <title>Formulario</title>
+</head>
+<body>  
+    <form>
+        <h1>Formulário para inscrição</h1>
+        <label for="id-nome">Nome:</label><input type="text" id="id-nome" name="id-nome" placeholder="Fulano" required><br> 
+        <label for="sobrenome">Sobrenome:</label><input type="text" id="sobrenome" name="sobrenome" placeholder="da Silva" required><br><br>
+        <label for="nasc">Data de Nascimento:</label><input type="date" id="nasc" name="nasc" required><br><br>
+        <label for="endereco">Endereço:</label><textarea id="endereco" name="endereco" rows="1" cols="50" placeholder="Seu endereço"></textarea><br>
+        <label for="curso">Escolha um curso:</label>
+        <select id="curso">
+        <option value="cc">Ciência da computação</option>
+        <option value="si">Sistemas de Informação</option>
+        <option value="psi">Psicologia</option>
+        <option value="chef">Gastronomia</option>
+        </select>
+        <p>Selecione o período do curso:<p>
+        <div class="periodo">
+        <label for="Matutino">Matutino</label><input type="radio" id="Matutino" name="periodo">
+        <label for="Vespertino">Vespertino</label><input type="radio" id="Vespertino" name="periodo">
+        <label for="Noturno">Noturno</label><input type="radio" id="Noturno" name="periodo"><br><br>
+        </div>
+        <div class="email">
+        <label for="notif">Deseja receber emails de notificação?</label><input type="checkbox" id="notif" name="notif" value="notif">
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>

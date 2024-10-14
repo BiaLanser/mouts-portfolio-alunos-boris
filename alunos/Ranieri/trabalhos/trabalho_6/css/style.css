@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans Oriya", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F6F8;
+}
+
+header {
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#email-input {
+    margin-left: 13px;
+}
+
+#senha-input {
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.content a {
+    margin-top: 0;
+    font-size: 12px;
+    margin-left: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #FF9900;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5e4117;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+#p-register {
+    margin-top: 20px;
+
+}
+
+#p-register a {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #005BB5;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.coluna-footer {
+    flex: 1;
+    padding: 0 20px;
+
+}
+
+#redes-sociais {
+    text-align: center;
+}
+
+#politica {
+    text-align: center;
+}
+
+#contato {
+    text-align: center;
+}
+
+.coluna-footer h3,
+.coluna-footer h2 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+
+.coluna-footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.coluna-footer li {
+    margin-bottom: 10px;
+}
+
+
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+
+.social-icons a:hover {
+    color: #3498db;
+}

@@ -1,0 +1,62 @@
+body {
+    /* background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+    background: linear-gradient(112.5deg, rgb(95, 10, 135) 11.4%, rgb(164, 80, 139) 60.2%);
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); /* blur effect */
+    border-radius: 15px; 
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn{
+    background: rgba(121, 45, 129, 0.8);
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: rgba(121, 45, 129, 1);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-custom{
+    height: 250px;
+}
+
+.card-custom .card-img-top {
+    width: 100%;
+    height: 110px; 
+    object-fit: cover;
+    
+}
+
+.card-text{
+    font-size:smaller;
+}
+
+.main-btn{
+    width: 80px;
+    background: rgba(144, 51, 128, 0.8);
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+    gap: 10px
+}
+
+.main-btn:hover{
+    background: rgba(112, 36, 100, 0.8);
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

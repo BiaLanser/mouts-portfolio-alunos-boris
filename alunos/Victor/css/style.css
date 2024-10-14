@@ -1,0 +1,92 @@
+#grid{
+    padding-left: 22px;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#toptext{
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    transition: 0.3s;
+}
+
+#toptext:hover{
+    width: 550px;
+    height: auto;
+    transition: 0.3s;
+}
+
+body{
+    background-color: #d8f1d2;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400px;
+}
+
+.card-body{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #4A4A4A;
+    border-top-style: solid;
+    border-top-width: 2px;
+    font-weight: 800px;
+    flex-grow: 1;
+    display: flex; /* Usar Flexbox no card body */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    justify-content: space-between;
+}
+
+.card{    
+    background-color: #ffffff;
+    display: flex; /* Usar Flexbox */
+    flex-direction: column; /* Alinha o conteúdo verticalmente */
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    background-color: #a5f583;
+    transition: 0.3s;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.col-12{
+    padding: 10px;
+}
+
+.row{
+    padding: 15px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.btn{
+    background-color: #55af6e;
+    border-style: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #4a7d65;
+    transition: 0.2s;
+}
+
+#lastRow{
+    display: flex;
+    justify-content: center;
+}
