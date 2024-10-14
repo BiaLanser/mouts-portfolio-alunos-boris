@@ -1,17 +1,23 @@
 # mouts-portfolio-alunos-boris
 
-Este projeto é uma página web simples, desenvolvida com HTML e CSS, para a criação de um formulário de inscrição para uma escola de curso ou faculdade.
+Este projeto é uma landing page desenvolvida e responsiva com o intuito de apresentar os projetos e um pouco mais da turma Vespertina do Mouts Academy.
+
+Link para acesso: professorboris.com.br
 
 ## 🛠️ Ferramentas
 
 * Git
 * Html
 * CSS
+* JavaScript
+* Bootstrap
 * Visual Studio Code
 
 ## ✒️ Autores
 
 * Bianca Lanser Peres
+* Gabriel Fernandes
+* Paola Kloch
 
 ## 📄 Licença
 
